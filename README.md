@@ -19,10 +19,15 @@ The rules are defined in the standard GOL format of bM/sN:
 
 For Conway's GOL, the rule is b3/s23. In this program, M and N are lists containing the allowed values. So in this case, M = [3], N = [2, 3].
 If we wish to add this rule to, say, all even-numbered columns, we would do the following:
+
   1) In the marked section, create an empty list to hold the range of cells, i.e., cells = [].
+  
   2) Using any type of function, designate combination any coordinates between 0 and the grid size.
+  
   3) Use grid.add_rule([3], [2, 3], cells], passing it the empty list as its third argument.
+  
   4) For further rules, clear the list, use this as the list for step 1 and repeat.
+
 
 Note that if a grid space does not have a rule applied to it, it will not interact with the simulation at all, so make sure to cover all spaces!
 
