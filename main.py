@@ -1,46 +1,46 @@
 import pygame as pg
-import pygame_widgets
 import numpy as np
-from Cells import Grid as g
-from pygame_widgets.button import Button
+from cellGrid import Grid as g
 
-screen_size = (800, 800)
-grid_size = (100, 100)
+screen_size = (800, 800)  # Size of the window in pixels.
+grid_size = (100, 100)  # Size of the grid in cells. Best to make these divisors of screen_size.
+num = 0  # Number of cells to randomly activate upon initialization.
+
+delay = 0  # If the simulation runs too fast, increase this to add milliseconds of delay per frame.
+clr = (255, 255, 255)  # Color of the active cells.
+
 pixel_size = (np.floor(screen_size[0] / grid_size[0]), np.floor(screen_size[1] / grid_size[1]))
-
 grid = g(grid_size[0], grid_size[1], 2)
 pg.init()
 screen = pg.display.set_mode(screen_size)
 
-num = 0
+# Add your rules here!!!
+# This preset rule creates a checkerboard pattern of two rules.
 cells = []
 for x in range(grid_size[0]):
     for y in range(grid_size[1]):
         if (x + y) % 2 == 0:
             cells.append((x, y))
-
-grid.add_rule([1], [1, 4, 5, 6, 7], cells)
+grid.add_rule([3], [2, 3], cells)
 
 cells = []
 for x in range(grid_size[0]):
     for y in range(grid_size[1]):
         if (x + y) % 2 == 1:
             cells.append((x, y))
+grid.add_rule([3, 4], [2, 3, 4], cells)
 
-grid.add_rule([3], [3, 4, 5, 6, 7], cells)
-
-if num < (grid_size[0] * grid_size[1]):
+if num < (grid_size[0] * grid_size[1]):  # Activates random cells.
     grid.randomize(num)
-
-
-clr = (255, 255, 255)
+else:
+    max_cells = grid_size[0] * grid_size[1]
+    print("Please choose a number of cells equal to or less than ", max_cells, ".")
 
 
 def check():
     clicked = False
     while not clicked:
         for event in pg.event.get():
-
             if event.type == pg.KEYDOWN:
                 if event.key == pg.K_SPACE:
                     clicked = True
@@ -84,6 +84,8 @@ def run():
                 clr = (a, a, a)
                 pg.draw.rect(screen, clr, (x * pixel_size[0], y * pixel_size[1], pixel_size[0], pixel_size[1]))
         pg.display.flip()
+        if delay > 0:
+            pg.time.delay(delay)
         #pg.time.delay(200)
         grid.evolve()
 
