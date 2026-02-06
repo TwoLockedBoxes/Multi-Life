@@ -70,14 +70,15 @@ Here are a few interesting and fun things to try:
     <figcaption>Circuit-Board</figcaption>
   </figure>
 
-  <figure style="display:inline-block; width="45%"; margin="10px;">
+  <figure style="display:inline-block; width:45%; margin:10px">
     <a href="Gallery/Dead-Snakes.png">
       <img src="Gallery/Dead-Snakes.png" width="100%" />
     </a>
     <figcaption>Dead-Snakes</figcaption>
   </figure>
 
-  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Dots-and-Mazes.png"><img src="Gallery/Dots-and-Mazes.png" width="100%" /></a><figcaption>Dots-and-Mazes</figcaption></figure>
+  <figure style="display:inline-block; width:45%; margin:10px;">
+    <a href="Gallery/Dots-and-Mazes.png"><img src="Gallery/Dots-and-Mazes.png" width="100%" /></a><figcaption>Dots-and-Mazes</figcaption></figure>
 
   <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Highways.png"><img src="Gallery/Highways.png" width="100%" /></a><figcaption>Highways</figcaption></figure>
 
