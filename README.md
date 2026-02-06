@@ -38,6 +38,10 @@ Here are a few interesting and fun things to try:
   wind up in the first state. It is an interesting challange to try and find other "quasi-stable" solutions, especially with changing rules!
 - Don't be afraid to add more than two rules, just make sure you cover all the grid spaces!
 
+<h2 class="Gallery">Gallery</h2>
+<p>Examples of various rules and patterns.</p>
+<hr>
+
 <p align="center">
   <a href="Gallery/Betweeners.png">
     <img src="Gallery/Betweeners.png" width="45%" />
