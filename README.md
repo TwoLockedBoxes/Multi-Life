@@ -37,3 +37,12 @@ Here are a few interesting and fun things to try:
   The b3/s23 rule is somewhat rare in that its active cell count can remain relatively constant for prolonged periods, although most configurations do still
   wind up in the first state. It is an interesting challange to try and find other "quasi-stable" solutions, especially with changing rules!
 - Don't be afraid to add more than two rules, just make sure you cover all the grid spaces!
+
+<p align="center">
+  <a href="Gallery/Betweeners.png">
+    <img src="Gallery/Betweeners.png" width="45%" />
+  </a>
+  <a href="Gallery/Hourglass.png">
+    <img src="Gallery/Hourglass.png" width="45%" />
+  </a>
+</p>
