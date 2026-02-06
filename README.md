@@ -42,107 +42,94 @@ Here are a few interesting and fun things to try:
 <p>Examples of various rules and patterns.</p>
 <hr>
 
-<p align="center">
-  <a href="Gallery/Betweeners.png">
-    <img src="Gallery/Betweeners.png" width="45%" />
-  </a>
-  <a href="Gallery/Brickwork-Pyramids.png">
-    <img src="Gallery/Brickwork-Pyramids.png" width="45%" />
-  </a>
-  <a href="Gallery/Circuit-Board.png">
-    <img src="Gallery/Circuit-Board.png" width="45%" />
-  </a>
-  <a href="Gallery/Dead-Snakes.png">
-    <img src="Gallery/Dead-Snakes.png" width="45%" />
-  </a>
-  <a href="Gallery/Dots-and-Mazes.png">
-    <img src="Gallery/Dots-and-Mazes.png" width="45%" />
-  </a>
-  <a href="Gallery/Highways.png">
-    <img src="Gallery/Highways.png" width="45%" />
-  </a>
-  <a href="Gallery/Hornets.png">
-    <img src="Gallery/Hornets.png" width="45%" />
-  </a>
-  <a href="Gallery/Hourglass.png">
-    <img src="Gallery/Hourglass.png" width="45%" />
-  </a>
-  <a href="Gallery/Inchworm-Generator.png">
-    <img src="Gallery/Inchworm-Generator.png" width="45%" />
-  </a>
-  <a href="Gallery/Interesting.png">
-    <img src="Gallery/Interesting.png" width="45%" />
-  </a>
-  <a href="Gallery/Lifelike.png">
-    <img src="Gallery/Lifelike.png" width="45%" />
-  </a>
-  <a href="Gallery/Many-Spreaders.png">
-    <img src="Gallery/Many-Spreaders.png" width="45%" />
-  </a>
-  <a href="Gallery/Pretty-Stable.png">
-    <img src="Gallery/Pretty-Stable.png" width="45%" />
-  </a>
-  <a href="Gallery/Slow-Maze.png">
-    <img src="Gallery/Slow-Maze.png" width="45%" />
-  </a>
-  <a href="Gallery/Slowly-Growing-Escalators.png">
-    <img src="Gallery/Slowly-Growing-Escalators.png" width="45%" />
-  </a>
-  <a href="Gallery/Space-Filler.png">
-    <img src="Gallery/Space-Filler.png" width="45%" />
-  </a>
-  <a href="Gallery/Stingrays.png">
-    <img src="Gallery/Stingrays.png" width="45%" />
-  </a>
-  <a href="Gallery/Strange-Blobs.png">
-    <img src="Gallery/Strange-Blobs.png" width="45%" />
-  </a>
-  <a href="Gallery/Termites.png">
-    <img src="Gallery/Termites.png" width="45%" />
-  </a>
-  <a href="Gallery/Unsettled-Mazes.png">
-    <img src="Gallery/Unsettled-Mazes.png" width="45%" />
-  </a>
-  <a href="Gallery/Voids.png">
-    <img src="Gallery/Voids.png" width="45%" />
-  </a>
-  <a href="Gallery/Weird-Repeater.png">
-    <img src="Gallery/Weird-Repeater.png" width="45%" />
-  </a>
-  <a href="Gallery/crosses.png">
-    <img src="Gallery/crosses.png" width="45%" />
-  </a>
-  <a href="Gallery/escalators.png">
-    <img src="Gallery/escalators.png" width="45%" />
-  </a>
-  <a href="Gallery/expanders.png">
-    <img src="Gallery/expanders.png" width="45%" />
-  </a>
-  <a href="Gallery/ferns.png">
-    <img src="Gallery/ferns.png" width="45%" />
-  </a>
-  <a href="Gallery/gornslop.png">
-    <img src="Gallery/gornslop.png" width="45%" />
-  </a>
-  <a href="Gallery/holey.png">
-    <img src="Gallery/holey.png" width="45%" />
-  </a>
-  <a href="Gallery/inchworms.png">
-    <img src="Gallery/inchworms.png" width="45%" />
-  </a>
-  <a href="Gallery/ladder.png">
-    <img src="Gallery/ladder.png" width="45%" />
-  </a>
-  <a href="Gallery/propagator.png">
-    <img src="Gallery/propagator.png" width="45%" />
-  </a>
-  <a href="Gallery/rectangles.png">
-    <img src="Gallery/rectangles.png" width="45%" />
-  </a>
-  <a href="Gallery/scaffolds.png">
-    <img src="Gallery/scaffolds.png" width="45%" />
-  </a>
-  <a href="Gallery/swimmers.png">
-    <img src="Gallery/swimmers.png" width="45%" />
-  </a>
-</p>
+<div style="text-align:center;">
+
+  <figure style="display:inline-block; width:45%; margin:10px;">
+    <a href="Gallery/Betweeners.png">
+      <img src="Gallery/Betweeners.png" width="100%" />
+    </a>
+    <figcaption>Betweeners</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;">
+    <a href="Gallery/Brickwork-Pyramids.png">
+      <img src="Gallery/Brickwork-Pyramids.png" width="100%" />
+    </a>
+    <figcaption>Brickwork-Pyramids</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;">
+    <a href="Gallery/Circuit-Board.png">
+      <img src="Gallery/Circuit-Board.png" width="100%" />
+    </a>
+    <figcaption>Circuit-Board</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; width="45%"; margin="10px;">
+    <a href="Gallery/Dead-Snakes.png">
+      <img src="Gallery/Dead-Snakes.png" width="100%" />
+    </a>
+    <figcaption>Dead-Snakes</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Dots-and-Mazes.png"><img src="Gallery/Dots-and-Mazes.png" width="100%" /></a><figcaption>Dots-and-Mazes</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Highways.png"><img src="Gallery/Highways.png" width="100%" /></a><figcaption>Highways</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Hornets.png"><img src="Gallery/Hornets.png" width="100%" /></a><figcaption>Hornets</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Hourglass.png"><img src="Gallery/Hourglass.png" width="100%" /></a><figcaption>Hourglass</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Inchworm-Generator.png"><img src="Gallery/Inchworm-Generator.png" width="100%" /></a><figcaption>Inchworm-Generator</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Interesting.png"><img src="Gallery/Interesting.png" width="100%" /></a><figcaption>Interesting</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Lifelike.png"><img src="Gallery/Lifelike.png" width="100%" /></a><figcaption>Lifelike</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Many-Spreaders.png"><img src="Gallery/Many-Spreaders.png" width="100%" /></a><figcaption>Many-Spreaders</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Pretty-Stable.png"><img src="Gallery/Pretty-Stable.png" width="100%" /></a><figcaption>Pretty-Stable</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Slow-Maze.png"><img src="Gallery/Slow-Maze.png" width="100%" /></a><figcaption>Slow-Maze</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Slowly-Growing-Escalators.png"><img src="Gallery/Slowly-Growing-Escalators.png" width="100%" /></a><figcaption>Slowly-Growing-Escalators</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Space-Filler.png"><img src="Gallery/Space-Filler.png" width="100%" /></a><figcaption>Space-Filler</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Stingrays.png"><img src="Gallery/Stingrays.png" width="100%" /></a><figcaption>Stingrays</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Strange-Blobs.png"><img src="Gallery/Strange-Blobs.png" width="100%" /></a><figcaption>Strange-Blobs</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Termites.png"><img src="Gallery/Termites.png" width="100%" /></a><figcaption>Termites</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Unsettled-Mazes.png"><img src="Gallery/Unsettled-Mazes.png" width="100%" /></a><figcaption>Unsettled-Mazes</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Voids.png"><img src="Gallery/Voids.png" width="100%" /></a><figcaption>Voids</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/Weird-Repeater.png"><img src="Gallery/Weird-Repeater.png" width="100%" /></a><figcaption>Weird-Repeater</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/crosses.png"><img src="Gallery/crosses.png" width="100%" /></a><figcaption>Crosses</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/escalators.png"><img src="Gallery/escalators.png" width="100%" /></a><figcaption>Escalators</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/expanders.png"><img src="Gallery/expanders.png" width="100%" /></a><figcaption>Expanders</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/ferns.png"><img src="Gallery/ferns.png" width="100%" /></a><figcaption>Ferns</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/gornslop.png"><img src="Gallery/gornslop.png" width="100%" /></a><figcaption>Gornslop</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/holey.png"><img src="Gallery/holey.png" width="100%" /></a><figcaption>Holey</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/inchworms.png"><img src="Gallery/inchworms.png" width="100%" /></a><figcaption>Inchworms</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/ladder.png"><img src="Gallery/ladder.png" width="100%" /></a><figcaption>Ladder</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/propagator.png"><img src="Gallery/propagator.png" width="100%" /></a><figcaption>Propagator</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/rectangles.png"><img src="Gallery/rectangles.png" width="100%" /></a><figcaption>Rectangles</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/scaffolds.png"><img src="Gallery/scaffolds.png" width="100%" /></a><figcaption>Scaffolds</figcaption></figure>
+
+  <figure style="display:inline-block; width:45%; margin:10px;"><a href="Gallery/swimmers.png"><img src="Gallery/swimmers.png" width="100%" /></a><figcaption>Swimmers</figcaption></figure>
+
+</div>
