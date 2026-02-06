@@ -24,9 +24,9 @@ If we wish to add this rule to, say, all even-numbered columns, we would do the 
 
   1) In the marked section, create an empty list to hold the range of cells, i.e., cells = [].
   
-  2) Using any type of function, designate combination any coordinates between 0 and the grid size.
+  2) Using a for loop, add to the list all cells (x, y) where x % 2 == 0
   
-  3) Use grid.add_rule([3], [2, 3], cells], passing it the empty list as its third argument.
+  3) Use grid.add_rule([3], [2, 3], cells], passing it the list of cells as its third argument.
   
   4) For further rules, clear the list, use this as the list for step 1 and repeat.
 
