@@ -1,6 +1,6 @@
 import pygame as pg
 import numpy as np
-from cellGrid import Grid as g
+from cellgrid import Grid as g
 
 screen_size = (800, 800)  # Size of the window in pixels.
 grid_size = (100, 100)  # Size of the grid in cells. Best to make these divisors of screen_size.
