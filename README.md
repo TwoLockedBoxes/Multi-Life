@@ -4,6 +4,8 @@ These constants are fundamental to the specific structure of reality, and simila
 
 ***This program is simply a standard GOL-style cellular automaton, with the added capability of being able to designate specific regions of the grid with custom rules.***
 
+Code: http://github.com/TwoLockedBoxes/Multi-Life/
+
 The rules are defined in the standard GOL format of bM/sN: 
   1) An inactive cell with exactly M neighbors will become active.
   2) An active cell with N neighbors will remain active.
