@@ -2,20 +2,18 @@ import pygame as pg
 import numpy as np
 from cellgrid import Grid as g
 
-screen_size = (800, 800)  # Size of the window in pixels.
-grid_size = (100, 100)  # Size of the grid in cells. Best to make these divisors of screen_size.
-num = 0  # Number of cells to randomly activate upon initialization.
+screen_size = (800, 800)  # Size of the screen in pixels.
+grid_size = (100, 100)  # Size of the grid of cells. Should be a divisor of screen_size.
+num = 20  # Number of cells to randomly activate.
+clr = (255, 255, 255)  # Color of active cells.
+delay = 0  # Add milliseconds of delay if the simulation runs too fast.
 
-delay = 0  # If the simulation runs too fast, increase this to add milliseconds of delay per frame.
-clr = (255, 255, 255)  # Color of the active cells.
-
-pixel_size = (np.floor(screen_size[0] / grid_size[0]), np.floor(screen_size[1] / grid_size[1]))
-grid = g(grid_size[0], grid_size[1], 2)
 pg.init()
+pixel_size = (np.floor(screen_size[0] / grid_size[0]), np.floor(screen_size[1] / grid_size[1]))
 screen = pg.display.set_mode(screen_size)
+grid = g(grid_size[0], grid_size[1], 2)
 
 # Add your rules here!!!
-# This preset rule creates a checkerboard pattern of two rules.
 cells = []
 for x in range(grid_size[0]):
     for y in range(grid_size[1]):
@@ -30,11 +28,9 @@ for x in range(grid_size[0]):
             cells.append((x, y))
 grid.add_rule([3, 4], [2, 3, 4], cells)
 
-if num < (grid_size[0] * grid_size[1]):  # Activates random cells.
+
+if num < (grid_size[0] * grid_size[1]):
     grid.randomize(num)
-else:
-    max_cells = grid_size[0] * grid_size[1]
-    print("Please choose a number of cells equal to or less than ", max_cells, ".")
 
 
 def check():
@@ -67,7 +63,6 @@ def run():
         events = pg.event.get()
         for event in events:
             if event.type == pg.QUIT:
-                running = False
                 pg.quit()
                 quit()
             elif event.type == pg.KEYDOWN:
@@ -84,11 +79,9 @@ def run():
                 clr = (a, a, a)
                 pg.draw.rect(screen, clr, (x * pixel_size[0], y * pixel_size[1], pixel_size[0], pixel_size[1]))
         pg.display.flip()
+        grid.evolve()
         if delay > 0:
             pg.time.delay(delay)
-        #pg.time.delay(200)
-        grid.evolve()
-
 
 while 1:
     run()
