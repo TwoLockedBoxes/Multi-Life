@@ -10,6 +10,9 @@ class Grid:
         self.num_states = num_states  # The number of possible states. E.g., in GOL there are 2 states: on and off.
         self.rules = []
 
+    def set_state(self, x, y, state):
+        self.grid[x][y] = state
+
     def get_grid(self):  # Returns the entire grid matrix.
         return self.grid
 
@@ -54,7 +57,6 @@ class Grid:
             for cell in area:
                 x, y = cell
                 num_neighbors = len(self.get_neighbors(x, y))
-                print(num_neighbors)
                 if self.get_state(x, y) == 1:
                     if num_neighbors in s:
                         next_grid[x][y] = 1
